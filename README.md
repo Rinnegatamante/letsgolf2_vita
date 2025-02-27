@@ -35,7 +35,7 @@ In order to properly install the game, you'll have to follow these steps precise
 - Install `libshacccg.suprx`, if you don't have it already, by following [this guide](https://samilops2.gitbook.io/vita-troubleshooting-guide/shader-compiler/extract-libshacccg.suprx).
 - Obtain your copy of *Let's Golf 2* legally for Android or Sony Xperia Play in form of an `.apk` file and an `.obb` file. [You can get all the required files directly from your phone](https://stackoverflow.com/questions/11012976/how-do-i-get-the-apk-of-an-installed-app-without-root-access) or by using an apk extractor you can find in the play store.
 - Open the apk with your zip explorer and extract the file `liblgolf2.so` from the `lib/armeabi-v7a` folder to `ux0:data/letsgolf2`.
-- Extract the `raw` folder located inside the zip in the `res` fpòder tp `ux0:data/letsgolf2`.
+- Extract the `raw` folder located inside the zip in the `res` folder to `ux0:data/letsgolf2`.
 - Open the obb with your zip explorer and extract the `gameloft` folder inside it in `ux0:data/letsgolf2`.
 
 ## Build Instructions (For Developers)
