@@ -9,6 +9,10 @@ By doing so, it's basically as if we emulate a minimalist Android environment in
 
 ## Changelog
 
+### v1.1
+
+- Fixed a GPU crash occurrence when finishing a Quick Play game.
+
 ### v1.0
 
 - Initial release.
