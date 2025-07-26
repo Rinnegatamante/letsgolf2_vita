@@ -306,7 +306,8 @@ static int __stack_chk_guard_fake = 0x42424242;
 static FILE __sF_fake[0x100][3];
 
 void glEnable_hook(GLenum v) {
-	glEnable(v);
+	if (v != GL_LIGHTING) // HACK: Disabled to prevent a GPU crash at the end of a Quick Play game
+		glEnable(v);
 }
 
 int pthread_mutex_init_fake(pthread_mutex_t **uid, const pthread_mutexattr_t *mutexattr) {
